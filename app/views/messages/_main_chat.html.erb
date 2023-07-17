@@ -9,32 +9,7 @@
   </div>
 
   <div class="main-chat-body">
-    <div class="message">
-      <div class="message-head">
-        <div class="user-name">
-          User1
-        </div>
-        <div class="date-time">
-          2023/7/17(mon) 15:00
-        </div>
-      </div>
-      <div class="text">
-        おはよう
-      </div>
-    </div>
-    <div class="message">
-      <div class="message-head">
-        <div class="user-name">
-          User2
-        </div>
-        <div class="date-time">
-          2023/7/17(mon) 15:05
-        </div>
-      </div>
-      <div class="text">
-        こんにちは
-      </div>
-    </div>
+    <%= render partial: 'message', collection: @messages %>
   </div>
 
   <div class="main-chat-foot">
