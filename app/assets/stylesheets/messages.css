@@ -1,0 +1,157 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* サイドバー */
+.side-bar {
+  width: 300px;
+  height: 100%;
+}
+
+.side-bar-head {
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.chat-create-btn a {
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+}
+
+.side-bar-body {
+  background-color: #2F3E51;
+  height: calc(100% - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+}
+
+/* チャット画面 */
+.main-chat {
+  width: calc(100vw - 300px);
+  height: 100%;
+}
+
+.main-chat-head {
+  background-color: #FFFFFF;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-chat-head .room-name {
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.chat-end-btn {
+  margin-top: 40px;
+}
+
+.chat-end-btn a {
+  color: darkred;
+  padding: 20px;
+  border: 1px solid darkred;
+}
+
+.main-chat-body {
+  background-color: #FAFAFA;
+  height: calc(100% - 190px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.message-head {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message .message-head .user-name {
+  color: #434A54;
+  font-size: 16px;
+}
+
+.message .message-head .date-time {
+  color: #999;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.message .text {
+  color: #434A54;
+  font-size: 14px;
+}
+
+.main-chat-foot {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.main-chat-foot .message-form {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.main-chat-foot .message-form .message {
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+}
+
+.main-chat-foot .message-form .image {
+  background-color: lightblue;
+  color: white;
+  font-size: 12px;
+  width: 60px;
+  padding: 12px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.main-chat-foot .post-btn {
+  background-color: #38AEF0;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
