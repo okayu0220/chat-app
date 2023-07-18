@@ -107,7 +107,7 @@ a {
   margin-left: 10px;
 }
 
-.message .text {
+.message .message-body .text {
   color: #434A54;
   font-size: 14px;
 }
